@@ -11,6 +11,8 @@
 Want to start posting blog content and stand out from [Medium](www.medium.com) and [DEV](https://dev.to/t/blog)? Use this CLI to quickly generate yourself a NextJS blog which uses Notion as a CMS to easily store and edit all your articles!
 
 ### [Check out my site to see what you can do!](www.jameshw.dev)
+### [View on NPMJS](https://www.npmjs.com/package/next-notion-blog-builder)
+
 
 <br />
 
@@ -46,6 +48,10 @@ I used [Vercel](https://vercel.com/home) to deploy my blog automatically every t
 <br />
 
 ## ✨ Features
+- NextJS 13 [Server Components](https://nextjs.org/blog/next-13#new-app-directory-beta) and Tailwind
+- Mobile responsiveness
+- 404/500 error pages
+- Loading skeletons
 - Dark mode!
 
 ### 🏡 Home page
@@ -71,3 +77,6 @@ A searchable, filterable list for recommended resources to track external resour
 
 ### 🤖 Technologies (optional)
 Show off what technologies/ tools you use.
+
+### Acknowledgements
+The general UX of this site is inspired by [Lee Rob](https://leerob.io/). I liked it because it's a very clear, minimal design which also has some mobile responsiveness (which is a must-have).
