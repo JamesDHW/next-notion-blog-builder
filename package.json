@@ -5,6 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesDHW/next-notion-blog-builder"
+  },
   "scripts": {
     "start": "ts-node-esm src/index.ts",
     "dev": "nodemon --watch src --exec yarn start",
