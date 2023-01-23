@@ -1,0 +1,1 @@
+export { ResourcesHeader } from "./ResourcesHeader";

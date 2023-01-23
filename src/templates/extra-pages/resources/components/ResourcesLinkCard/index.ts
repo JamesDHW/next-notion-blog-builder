@@ -1,0 +1,1 @@
+export { ResourcesLinkCard } from "./ResourcesLinkCard";

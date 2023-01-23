@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": false, // This makes sure we don"t have conflicts between eslint and prettier.
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.markdownlint": true
+  },
+}

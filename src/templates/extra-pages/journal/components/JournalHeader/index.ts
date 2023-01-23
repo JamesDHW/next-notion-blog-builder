@@ -1,0 +1,1 @@
+export { JournalHeader } from "./JournalHeader";

@@ -1,0 +1,42 @@
+{
+  "name": "next-notion-blog-builder",
+  "version": "1.0.0",
+  "description": "CLI tool for building a NextJS 13 blog with Notion as a CMS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm src/index.ts",
+    "dev": "nodemon --watch src --exec yarn start",
+    "build": "tsc --noEmit false && rm -rf dist/templates && cp -r src/templates dist"
+  },
+  "bin": "./dist/index.js",
+  "keywords": [
+    "notion",
+    "blog",
+    "cms",
+    "portfolio",
+    "next",
+    "nextJS",
+    "NextJS 13"
+  ],
+  "author": "James Haworth Wheatman",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "execa": "^6.1.0",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
