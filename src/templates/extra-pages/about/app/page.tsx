@@ -1,6 +1,6 @@
 import { PageTitle } from "components/common/PageTitle";
 import Image from "next/image";
-import person from "/public/person.png";
+import about from "/public/about.jpg";
 
 export default function About() {
   return (
@@ -33,7 +33,7 @@ export default function About() {
         <div className="relative sm:order-none order-first w-100 sm:w-72 h-96 overflow-hidden rounded-lg m-5 hover:scale-[1.02] transition-all hover:shadow-xl">
           <Image
             className="object-cover transition-all"
-            src={person}
+            src={about}
             alt="me"
             placeholder="blur"
             fill

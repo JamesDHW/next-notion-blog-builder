@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BlogHighlightCard } from "components/home/BlogHighlightCard";
-import avatar from "/public/avatar.png";
+import avatar from "/public/avatar.jpg";
 import { ArrowRightIcon } from "icons/arrow-right";
 import { PATHS } from "./constants";
 
