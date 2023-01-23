@@ -40,6 +40,7 @@ See the [Notion template page](https://www.notion.so/jdhw/Next-Notion-Blog-Templ
 <br />
 
 ## ✨ Features
+- Dark mode!
 
 ### 🏡 Home page
 ### ❓ About me page (optional)

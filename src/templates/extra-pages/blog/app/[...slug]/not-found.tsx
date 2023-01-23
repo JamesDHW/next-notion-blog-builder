@@ -8,7 +8,7 @@ export default function NotFound() {
         <h2 className="text-xl md:text-3xl my-4">~ Article Not Found ~</h2>
       </div>
       <p className="text-gray-600 dark:text-gray-400 my-16 text-xl sm:text-3xl text-center font-bold">
-        This isn{`"`}t the webpage you{`"`}re looking for!
+        This isn{`'`}t the webpage you{`'`}re looking for!
       </p>
       <Link
         href="/"

@@ -11,21 +11,21 @@ export default function Home() {
       <div className="flex sm:flex-row flex-col-reverse justify-between">
         <div className="flex flex-col justify-top align-top mb-8 sm:mb-24 text-center sm:text-left">
           <h1 className="font-bold text-2xl md:text-4xl mb-8 tracking-tight text-gray-700 dark:text-white">
-            {`<your-name>`}
+            Albert Einstein
           </h1>
           <h2 className="text-gray-700 dark:text-gray-200 md:text-xl text-xl">
-            {`<what-you-do>`} at{" "}
+            Theoretical Physicist working at the{" "}
             <Link
               className="font-semibold"
-              href="https://www.google.com"
+              href="https://en.wikipedia.org/wiki/Swiss_Federal_Institute_of_Intellectual_Property"
               target="_blank"
               rel="noreferrer"
             >
-              {`<where-you-work>`}
+              Swiss Patent Office
             </Link>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-base">
-            {`<what-are-you-trying-to-achieve>`}
+            Working to become one of the greatest and most influential physicists of all time.
           </p>
         </div>
         <div className="relative mx-auto w-[225px] h-[225px] overflow-hidden rounded-full m-5 hover:scale-[1.05] transition-all hover:shadow-xl shadow-md">
