@@ -39,6 +39,12 @@ See the [Notion template page](https://www.notion.so/jdhw/Next-Notion-Blog-Templ
 
 <br />
 
+### 🚀 Deploy to Production
+
+I used [Vercel](https://vercel.com/home) to deploy my blog automatically every time I push to the `main` GitHub branch. See the [setup docs](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy).
+
+<br />
+
 ## ✨ Features
 - Dark mode!
 
