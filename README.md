@@ -8,9 +8,9 @@
 <h1 align="center">📚 Notion Blog Builder CLI</h1>
 
 
-Want to start posting blog content and stand out from [Medium](www.medium.com) and [DEV](https://dev.to/t/blog)? Use this CLI to quickly generate yourself a NextJS blog which uses Notion as a CMS to easily store and edit all your articles!
+Want to start posting blog content and stand out from [Medium](https://www.medium.com) and [DEV](https://dev.to/t/blog)? Use this CLI to quickly generate yourself a NextJS blog which uses Notion as a CMS to easily store and edit all your articles!
 
-### [Check out my site to see what you can do!](www.jameshw.dev)
+### [Check out my site to see what you can do!](https://www.jameshw.dev)
 ### [View on NPMJS](https://www.npmjs.com/package/next-notion-blog-builder)
 
 
@@ -38,8 +38,6 @@ See the [Notion template page](https://www.notion.so/jdhw/Next-Notion-Blog-Templ
 4. Open notion in the web and open the network tab when signed in. Check request cookie:
    - copy token_v2 into your `.env.local` file;
    - copy notion_user_id into your `.env.local` file.
-
-<br />
 
 ### 🚀 Deploy to Production
 
