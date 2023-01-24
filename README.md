@@ -10,7 +10,8 @@
 
 Want to start posting blog content and stand out from [Medium](https://www.medium.com) and [DEV](https://dev.to/t/blog)? Use this CLI to quickly generate yourself a NextJS blog which uses Notion as a CMS to easily store and edit all your articles!
 
-### [Check out my site to see what you can do!](https://www.jameshw.dev)
+### [Example Website: check out my site to see what you can do!](https://www.jameshw.dev)
+### [Example Notion CMS](https://jdhw.notion.site/jdhw/Next-Notion-Blog-Template-8e961bdf11d64f8cb20787c53f43b422)
 ### [View on NPMJS](https://www.npmjs.com/package/next-notion-blog-builder)
 
 
@@ -27,7 +28,7 @@ Want to start posting blog content and stand out from [Medium](https://www.mediu
 
 ### 💿 Create Notion databases for the CMS
 
-See the [Notion template page](https://www.notion.so/jdhw/Next-Notion-Blog-Template-8e961bdf11d64f8cb20787c53f43b422) for the database you will need:
+See the [Notion template page](https://jdhw.notion.site/jdhw/Next-Notion-Blog-Template-8e961bdf11d64f8cb20787c53f43b422) for the database you will need:
 
 1. Copy this page into your personal Notion space.
 2. Follow the steps in the [NotionAPI Docs](https://developers.notion.com/docs/create-a-notion-integration) to create an integration:
