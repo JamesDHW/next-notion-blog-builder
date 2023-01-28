@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="px-8">
       <div className="flex sm:flex-row flex-col-reverse justify-between">
-        <div className="flex flex-col justify-top align-top mb-8 sm:mb-24 text-center sm:text-left">
+        <div className="flex flex-col justify-top align-top mb-8 sm:mb-14 text-center sm:text-left">
           <h1 className="font-bold text-2xl md:text-4xl mb-8 tracking-tight text-gray-700 dark:text-white">
             Albert Einstein
           </h1>
@@ -24,11 +24,11 @@ export default function Home() {
               Swiss Patent Office
             </Link>
           </h2>
-          <p className="text-gray-600 dark:text-gray-400 text-base">
+          <p className="text-gray-600 dark:text-gray-400 text-base sm:mr-4">
             Working to become one of the greatest and most influential physicists of all time.
           </p>
         </div>
-        <div className="relative mx-auto w-[225px] h-[225px] overflow-hidden rounded-full m-5 hover:scale-[1.05] transition-all hover:shadow-xl shadow-md">
+        <div className="relative mx-auto min-w-[225px] w-[225px] h-[225px] overflow-hidden rounded-full m-5 hover:scale-[1.05] transition-all hover:shadow-xl shadow-md">
           <Image
             alt="me"
             src={avatar}
@@ -44,17 +44,17 @@ export default function Home() {
       <div className="flex gap-6 flex-col md:flex-row overflow-hidden pb-4">
         <BlogHighlightCard
           slug="YYYY-MM-DD/slug"
-          title="Article title"
-          gradient="from-gray-700 to-gray-300"
-        />
-        <BlogHighlightCard
-          slug="YYYY-MM-DD/slug"
-          title="Article title"
+          title="Does the Inertia of a Body Depend Upon Its Energy Content?"
           gradient="from-gray-300 to-gray-500"
         />
         <BlogHighlightCard
           slug="YYYY-MM-DD/slug"
-          title="Article title"
+          title="On the Electrodynamics of Moving Bodies"
+          gradient="from-gray-700 to-gray-300"
+        />
+        <BlogHighlightCard
+          slug="YYYY-MM-DD/slug"
+          title="On a Heuristic Viewpoint Concerning the Production and Transformation of Light"
           gradient="from-gray-700 to-gray-300"
         />
       </div>
