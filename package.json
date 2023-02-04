@@ -1,6 +1,6 @@
 {
   "name": "next-notion-blog-builder",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "CLI tool for building a NextJS 13 blog with Notion as a CMS",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -12,7 +12,8 @@
   "scripts": {
     "start": "ts-node-esm src/index.ts",
     "dev": "nodemon --watch src --exec yarn start",
-    "build": "tsc --noEmit false && rm -rf dist/templates && cp -r src/templates dist"
+    "build": "tsc --noEmit false && rm -rf dist/templates && cp -r src/templates dist",
+    "publish": "yarn build && npm publish"
   },
   "bin": "./dist/index.js",
   "keywords": [
