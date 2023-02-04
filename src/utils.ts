@@ -2,7 +2,7 @@ import chalk from "chalk";
 import path from "path";
 
 import { fileURLToPath } from "url";
-import { copySync } from 'fs-extra/esm'
+import { copySync, ensureDirSync } from 'fs-extra/esm'
 import { CliResult, PackageManager } from "./types.js";
 import { execa } from "execa";
 
@@ -35,6 +35,7 @@ export const copyOverBaseTemplate = (
 ) => {
     log(`Generating base template`)
     const baseTemplateDir = path.join(templateRootDir, "base")
+    ensureDirSync(baseTemplateDir)
     copySync(baseTemplateDir, targetRootDir, { overwrite: false })
 }
 
@@ -61,7 +62,10 @@ export const copyOverPageTemplate = (
     const targetAppDir = path.join(targetRootDir, "app", page)
     const targetComponentDir = path.join(targetRootDir, "components", page)
 
+    ensureDirSync(pageAppTemplateDir)
     copySync(pageAppTemplateDir, targetAppDir)
+    
+    ensureDirSync(pageComponentsTemplateDir)
     copySync(pageComponentsTemplateDir, targetComponentDir)
 }
 
