@@ -7,6 +7,7 @@
 
 <h1 align="center">📚 Notion Blog Builder CLI</h1>
 
+[![NPM version](https://img.shields.io/npm/v/next-notion-blog-builder.svg?style=flat)](https://www.npmjs.com/package/next-notion-blog-builder) [![NPM monthly downloads](https://img.shields.io/npm/dm/next-notion-blog-builder.svg?style=flat)](https://npmjs.org/package/next-notion-blog-builder) [![NPM total downloads](https://img.shields.io/npm/dt/next-notion-blog-builder.svg?style=flat)](https://npmjs.org/package/next-notion-blog-builder)
 
 Want to start posting blog content and stand out from [Medium](https://www.medium.com) and [DEV](https://dev.to/t/blog)? Use this CLI to quickly generate yourself a NextJS blog which uses Notion as a CMS to easily store and edit all your articles!
 
