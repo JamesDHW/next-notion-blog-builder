@@ -1,4 +1,4 @@
-import { Chip } from "components/Common/Chip";
+import { Chip } from "components/common/Chip";
 
 export const ResourcesLinkCardSkeleton = () => (
   <div className="flex flex-row justify-between w-full p-2 my-1 shadow hover:scale-[1.01] transition-all">

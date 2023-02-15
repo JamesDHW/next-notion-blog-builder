@@ -2,7 +2,7 @@
 
 import { FC, useCallback, useState } from "react";
 import classes from "classnames";
-import { SearchList } from "components/Common/SearchList";
+import { SearchList } from "components/common/SearchList";
 import { ResourcesLinkCard } from "components/resources/ResourcesLinkCard";
 import { LearningResource } from "types/cms";
 import { RESOURCE_ICONS, ResourceType } from "app/resources/constants";

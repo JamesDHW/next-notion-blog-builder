@@ -1,4 +1,4 @@
-import { PageTitle } from "components/Common/PageTitle";
+import { PageTitle } from "components/common/PageTitle";
 import { TechListDisplay } from "components/tech/TechListDisplay";
 import { TECHNOLOGIES } from "./constants";
 

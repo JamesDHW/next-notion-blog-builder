@@ -1,7 +1,7 @@
 "use client";
 
 import { FC } from "react";
-import { SearchList } from "components/Common/SearchList";
+import { SearchList } from "components/common/SearchList";
 import { BlogLinkCard } from "components/blog/BlogLinkCard";
 import { Article } from "types/cms";
 

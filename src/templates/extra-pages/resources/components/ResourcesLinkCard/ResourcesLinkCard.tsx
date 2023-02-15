@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FC, SVGProps } from "react";
-import { Chip } from "components/Common/Chip";
+import { Chip } from "components/common/Chip";
 import { LearningResource } from "types/cms";
 import { RESOURCE_ICONS } from "app/resources/constants";
 

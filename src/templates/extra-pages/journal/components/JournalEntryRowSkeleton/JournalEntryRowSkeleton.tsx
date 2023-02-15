@@ -1,4 +1,4 @@
-import { Chip } from "components/Common/Chip";
+import { Chip } from "components/common/Chip";
 import { CalendarIcon } from "icons/calendar";
 
 export const JournalEntryRowSkeleton = () => (
