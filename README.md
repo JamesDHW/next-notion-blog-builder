@@ -1,5 +1,6 @@
 <p align="center">
     <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" width="100" height="100" />
+    <img src="https://www.freeiconspng.com/thumbs/plus-icon/plus-icon-black-2.png" width="100" height="100" />
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" width="100" height="100" />
 </p>
 <br />
